@@ -1,5 +1,5 @@
 console.log("welcome to tic tac toe");
-let music= new Audio("chlajaa.mp3");
+let music= new Audio("music.mp3");
 let audioturn=new Audio("ting.mp3");
 let gameover=new Audio("gameover.mp3");
 let turn="X";
@@ -68,5 +68,7 @@ document.querySelector('.info').innerText="Trun for"+turn;
 document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width="0px";
 music.currentTime=0; 
 })
+
+
 
 
